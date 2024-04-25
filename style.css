@@ -1,0 +1,62 @@
+*,
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+ background-image: url(pexels-roman-odintsov-4871011.jpg);
+}
+
+header{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px rgb(246, 244, 244);
+}
+
+.logo{
+    margin-right: auto;
+    margin-left: 12px;
+    padding: 10px;
+}
+
+.icon{
+    margin-right: 12px;
+    padding: 10px;
+    background-color: rgb(36, 39, 39);
+    color: aliceblue;
+    border-radius: 50%;
+    border: 2px solid white ;
+}
+
+a{
+    color: aliceblue;
+}
+
+.intro{
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.judul{
+    font-size: 35px;
+    margin-bottom: 7px;
+}
+
+.isi{
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+
+.container{
+margin-right: 5px;
+ margin-top: 20px;
+ border-radius: 15px;
+}
+
+.card{
+    padding: 12px;
+    text-align: center;
+}
